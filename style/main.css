@@ -570,8 +570,8 @@ a.buy-btn:focus {
 /* Loader */
 
 .se-pre-con {
-  position: flex;
-  justify-content: center;
+  position: fixed;
+  text-align: center;
   left: 0px;
   top: 0px;
   width: 100%;
@@ -579,14 +579,13 @@ a.buy-btn:focus {
   z-index: 9999;
   background:#fff;
   margin: 0;
-  text-align: center;
   overflow: hidden;
 }
 
 div.se-pre-con img{
   max-width: 200px;
-  top: 50%;
-  transform: translate(-50%);
+top: 50%;
+
   position: relative;
 }
 div.se-pre-con.highlighted{

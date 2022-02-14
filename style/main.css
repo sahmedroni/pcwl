@@ -144,6 +144,8 @@ body {
   background: rgb(0, 183, 221);
   background: linear-gradient(90deg, rgba(0, 183, 221, 1) 0%, rgba(237, 237, 237, 0.6867121848739496) 0%);
   margin-bottom: 10rem;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 
 .card-title {
@@ -154,7 +156,6 @@ body {
   font-size: 1.5rem;
   padding-bottom: 5px;
   padding-left: 10px;
-  transition: 2s;
 
 }
 
@@ -162,15 +163,21 @@ body {
   padding: 1.2rem;
   margin-bottom: 0;
   padding-bottom: 0;
-  text-align: justify;
+  text-align: left;
   font-weight: lighter;
-  line-height: 1.4rem;
+  line-height: 1.2rem;
 }
+
+.card-img-top {
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.20), 0 12px 10px rgba(0, 0, 0, 0.12);
+ 
+}
+
 
 
 #card-btn1 {
 
-  margin-top: 5px;
+  margin-top: 15px;
   margin-bottom: 5px;
   font-weight: lighter;
   color: black;
@@ -644,13 +651,16 @@ div.se-pre-con.highlighted{
 
 }
 .recognitions img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   height: 100px;
   padding: 10px;
   border-radius: 30px;
 }
 
 .firesafety img:hover {
-  height: 205px;
+  height: 203px;
   transition: all 0.5s ease-in-out;
   
 }

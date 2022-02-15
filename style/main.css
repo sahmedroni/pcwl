@@ -293,7 +293,8 @@ body {
 
 .social-icon a :hover {
   padding: 4px;
-  transition: all 0.05s ease-in-out;
+  transition: all 0.10s fade-out;
+  background-color: #000000;
 
 }
 

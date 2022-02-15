@@ -41,7 +41,7 @@ body {
 
   padding-top: 5px;
   padding-bottom: 5px;
-  background: linear-gradient(90deg, rgb(3, 61, 73) 0%, rgba(41, 39, 39, 0.687) 0%);
+  background: linear-gradient(90deg, rgba(0, 183, 221, 1) 0%, rgba(237, 237, 237, 0.6867121848739496) 0%);
   position: -webkit-sticky;
   position: sticky;
   top: 0;

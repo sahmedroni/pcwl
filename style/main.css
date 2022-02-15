@@ -272,16 +272,29 @@ body {
 }
 
 .social-icon i {
-
   padding: 5px;
-  background-color: #000000;
-  color: #32fe00;
+  background-color: #fff;
   border-radius: 10%;
   width: 100%;
 }
+#instagram {
+  color: #EA4852;
+}
+#linkedin {
+  color: #0077B5;
+}
+
+#twitter {
+  color: #4EC1F2;
+}
+#facebook {
+  color: #1877F2;
+}
 
 .social-icon a :hover {
-  background-color: #fff;
+  padding: 4px;
+  transition: all 0.05s ease-in-out;
+
 }
 
 .copyright-text {

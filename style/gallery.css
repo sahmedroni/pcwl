@@ -1,0 +1,29 @@
+.gallery-item {
+  position: abs;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 10px;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+ 
+
+}
+
+.gallery-item .item img {
+  padding: 2px;
+  height: 200px;
+  width: 200px;
+  border-radius: 10px;
+  border-color: khaki;
+  border-style: solid;
+  border-width: 5px;
+  margin: 10px;
+
+}
+
+.gallery-item .item :hover {
+margin-top: -10px;
+ transition: all 0.05s ease-in;
+} 
